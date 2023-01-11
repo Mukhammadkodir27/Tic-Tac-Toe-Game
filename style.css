@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: white;
+}
+
+header {
+    text-align: center;
+    margin: 50px;
+    padding: 0;
+}
+
+#head {
+    font-size: 50px;
+    /*font-family: cursive;*/
+    color: red;
+}
+
+h1#result {
+    font-size: 42px;
+    font-family: Verdana;
+    color: gold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+canvas {
+    display: block;
+    float: left;
+    border: 3px solid dodgerblue;
+    background-color: "#51dffb"; /*lightyellow;*/
+    text-align: center;
+}
+
+#game {
+    position: relative;
+    width: 640px;
+    height: 320px;
+    margin: 0 auto;
+}
+
+#tic {
+    position: relative;
+    margin: 0 auto;
+    height: 318px;
+    width: 318px;
+    display: inline-block;
+    float: left;
+}
+
+#rules {
+    position: relative;
+    width: 318px;
+    height: 318px;
+    text-align: center;
+    display: inline-block;
+    float: right;
+}
+
+p {
+    font-size: 26px;
+    margin: 15px;
+    color: red;
+}
+
+h2 {
+    font-size: 35px;
+    color: brown;
+}
+
+button {
+    margin-top: 25px;
+    width: 200;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    font-family: cursive;
+    border: 1px solid black;
+    border-radius: 3px;
+    
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.7);
+}
+
+canvas:hover {
+    background-color: skyblue; /*lightgreen;*/
+}
+
+button:hover {
+    background: skyblue; /*lightgreen;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
